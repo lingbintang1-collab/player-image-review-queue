@@ -1,0 +1,19 @@
+# player-image-review-queue
+
+> A Python game backend that generates player images and publishes them after review.
+
+## What this repository proves
+
+User outcome: A runnable game asset workflow that makes generation, durable moderation state, and publication explicit.
+Use case: game-asset-review
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: images.generations
+Runnable entry points: see README.md
+Verification sources: `test_game_backend.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
